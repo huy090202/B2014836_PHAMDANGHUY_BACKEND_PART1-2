@@ -12,6 +12,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to contact book application." });
 });
 
-app.use("/api/contact", contactRouter);
+app.use("/api/contacts", contactRouter);
 
 module.exports = app;
